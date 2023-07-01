@@ -6,11 +6,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: #5e48e8;
 }
 
 body {
-    background-image: url('assets/earth.gif');
-    background-position: center;
+    background-color: white;
+    /* background-image: url('assets/earth.gif');
+    background-position: center; */
 }
 
 a {

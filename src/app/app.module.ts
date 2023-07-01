@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './pages/main/main.component';
 import { TimeComponent } from './components/time/time.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { FooterComponent } from './components/footer/footer.component';
     MainComponent,
     TimeComponent,
     FooterComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
