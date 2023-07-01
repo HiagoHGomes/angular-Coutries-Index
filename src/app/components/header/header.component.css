@@ -1,0 +1,45 @@
+header {
+  padding: 15px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 3px 15px 21px -7px rgba(0,0,0,0.65);
+-webkit-box-shadow: 3px 15px 21px -7px rgba(0,0,0,0.65);
+-moz-box-shadow: 3px 15px 21px -7px rgba(0,0,0,0.65);
+color: black;
+}
+
+.title {
+  background-color: red;
+  max-height: 0;
+}
+
+span {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+li {
+  padding: 5px;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.links:hover {
+  background-color: #066e88;
+  border-radius: 15px;
+  color: white;
+  padding: 5px;
+}
