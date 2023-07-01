@@ -1,0 +1,15 @@
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 15px 21px -7px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 3px 15px 21px -7px rgba(0,0,0,0.65);
+    -moz-box-shadow: 3px 15px 21px -7px rgba(0,0,0,0.65);
+}
+
+p {
+    padding: 2px;
+}

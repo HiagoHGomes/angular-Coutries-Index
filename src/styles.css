@@ -12,3 +12,8 @@ body {
     background-image: url('assets/earth.gif');
     background-position: center;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}

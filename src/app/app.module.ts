@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './pages/main/main.component';
 import { TimeComponent } from './components/time/time.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { TimeComponent } from './components/time/time.component';
     HeaderComponent,
     MainComponent,
     TimeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
