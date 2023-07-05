@@ -8,6 +8,8 @@ import { MainComponent } from './pages/main/main.component';
 import { TimeComponent } from './components/time/time.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { FlagsComponent } from './components/flags/flags.component';
+import { CountriesInfoComponent } from './pages/countries-info/countries-info.component';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
     TimeComponent,
     FooterComponent,
     PageNotFoundComponent,
+    FlagsComponent,
+    CountriesInfoComponent,
   ],
   imports: [
     BrowserModule,
