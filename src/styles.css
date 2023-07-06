@@ -13,9 +13,30 @@ body {
     background-color: white;
     /* background-image: url('assets/earth.gif');
     background-position: center; */
+    overflow-x: hidden;
 }
 
 a {
     text-decoration: none;
     color: black;
 }
+
+
+/* Personalização scroll Chrome */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 1rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #5e48e8;
+    border-radius: 1rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+  }
+
+  /* Personalização scroll mozilla */
+  
