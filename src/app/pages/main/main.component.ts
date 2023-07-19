@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-main',
@@ -6,7 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
-
+  @Input()
+  id: string = "0";
+  @Input()
+  flag: string = "";
+  @Input()
+  alt:string = "";
+  @Input()
+  CountryName:string = "";
   constructor() { }
 
   ngOnInit(): void {

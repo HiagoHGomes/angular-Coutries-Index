@@ -1,9 +1,10 @@
-<div class="flags">
-    <a routerLink="CountriesInfo" class="link">
-        <div class="countryInfo">
-            <img src="../../../assets/flags/4x3/br.svg" alt="brazilian flag" width="150">
-             <div class="coutryName">Brasil</div>
-         </div>
-    </a>
-</div>
+    <div class="flags">
+        <a [routerLink]="['CountriesInfo', item.id]" class="link" *ngFor="let item of dataFake" id={{item.id}}>
+            <div class="countryInfo">
+                <img src={{item.flag}} alt={{item.alt}} width="150">
+                 <div class="coutryName">{{item.CountryName}}</div>
+             </div>
+        </a>
+    </div>
+
 

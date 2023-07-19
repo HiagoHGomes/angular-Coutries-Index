@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { dataFake } from 'src/app/data/dataFake';
 
 @Component({
   selector: 'app-countries-info',
@@ -6,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./countries-info.component.css']
 })
 export class CountriesInfoComponent implements OnInit {
+  item: any;
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.route.paramMap.subscribe((params) => {
+      const id = Number(params.get('id'));
+      this.item = dataFake.find((item) => item.id === id); // Use the variable id here instead of "id"
+    });
   }
-
 }

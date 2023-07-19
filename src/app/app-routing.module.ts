@@ -7,7 +7,7 @@ import { CountriesInfoComponent } from './pages/countries-info/countries-info.co
 
 const routes: Routes = [
   {path: '', component: MainComponent},
-  {path:'CountriesInfo', component: CountriesInfoComponent},
+  {path:'CountriesInfo/:id', component: CountriesInfoComponent},
   {path: 'about', component: SobreComponent},
   {path: '**', component:  PageNotFoundComponent}
 ];

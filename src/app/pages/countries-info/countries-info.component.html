@@ -1,7 +1,7 @@
 <main class="container">
     <div class="infoImg">
         <section class="rightSide">
-            <img src="../../../assets/flags/4x3/br.svg" alt="Bandeira do Brasil" width="520">
+            <img src={{item.flag}} alt={{item.alt}} width="520">
         </section>
         <section class="leftSide">
             <ul class="listaPrincipal">
@@ -66,7 +66,7 @@
                     <div class="answers">São Paulo</div>
                 </li>
                 <li class="liPrincipal">
-                    Menor estado em territorio:
+                    Menor estado em população:
                     <div class="answers">Roraima/RO</div>
                 </li>
                 <li class="liPrincipal">
@@ -104,7 +104,7 @@
                 </li>
                 <li class="liPrincipal">
                     Hino nacional: <br>
-                    <iframe width="380" src="https://www.youtube.com/embed/SyyOahYXhUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="380" src={{item.hinoNacional}} allowfullscreen></iframe>
                 </li>
             </ul>
         </section>
