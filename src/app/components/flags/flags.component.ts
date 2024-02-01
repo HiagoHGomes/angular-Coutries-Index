@@ -8,8 +8,6 @@ import { dataFake } from 'src/app/data/dataFake';
 })
 export class FlagsComponent implements OnInit {
   dataFake = dataFake;
-  @Input()
-  id: string = "0";
 
   constructor() { }
 
